@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+.edit-heading,
+.form-heading {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Arial", sans-serif;
+    color: #333;
+}
+
+form div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="file"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    height: 120px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4e73df;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #2e59d9;
+}
+
+img {
+    display: block;
+    margin-top: 10px;
+    border-radius: 6px;
+    max-width: 100px;
+}
+
+@media (max-width: 768px) {
+    form {
+        padding: 20px;
+        width: 90%;
+    }
+
+    .edit-heading,
+    .form-heading {
+        font-size: 1.5rem;
+    }
+
+    input[type="text"],
+    input[type="file"],
+    textarea {
+        font-size: 12px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
