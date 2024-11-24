@@ -31,7 +31,6 @@
      ```
 
 4. **Set Up Environment File**:
-   - The `.env` file is essential for setting up environment variables like database connections.
    - Create a `.env` file from `.env.example`:
      ```bash
      cp .env.example .env
