@@ -36,9 +36,9 @@
      ```bash
      cp .env.example .env
      ```
-   - Modify the following values to match your database configuration:
+   - Modify the following values to match your database configuration for example:
      ```
-     example:
+     
      DB_CONNECTION=mysql
      DB_HOST=127.0.0.1
      DB_PORT=3306
