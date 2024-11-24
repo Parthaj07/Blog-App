@@ -31,7 +31,7 @@
      ```
 
 4. **Set Up Environment File**:
-   - Create a `.env` file from `.env.example`:
+   - Open the project in a code editor and create a `.env` file from `.env.example`:
      ```bash
      cp .env.example .env
      ```
